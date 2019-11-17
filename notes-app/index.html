@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Notes App</h1>
+        <h2>Take notes and never forget</h2>
+        <input id = 'search-key' type ="text" placeholder="filter-todo">
+        <select id= "select-by">
+            <option value ="byEdited">sort by last edited</option>
+            <option value ="byCreated">sort by recent created</option>
+            <option value ="alphabetical">sort aplphabetically</option>
+        </select>
+       <div id = "notes"></div>
+    
+        <button id ="create-button"> create button</button>
+    
+        <lable>
+                <input type ="checkbox"> try it
+        </lable>
+       
+       
+       <!--<button id= "remove-all">remove all</button>-->
+      <!--<form id="form">
+           <input type= "text" id= "name" name="name">
+           <button id="button">submit</button>
+       </form>-->
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+       <script src="http://wzrd.in/standalone/uuid%2Fv4@latest"></script>
+       <script src="notes-function.js"></script>
+        <script src="notes-app.js"></script>
+    </body>
+</html>
